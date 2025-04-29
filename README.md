@@ -97,3 +97,22 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 - **Protect User Data**: Safeguard personal and payment information.
 - **Secure Payments**: Prevent unauthorized transactions and fraud.
 - **Maintain Platform Trust**: Ensures users can trust the platform with their interactions and financial transactions.
+
+---
+
+### CI/CD Pipeline
+
+CI/CD stands for Continuous Integration and Continuous Deployment. It automates the process of integrating code changes, running tests, and deploying applications to production, reducing manual effort and errors.
+
+**Importance for the Project:**
+- Faster deployment cycles
+- Early bug detection through automated testing
+- Ensures stable and reliable backend updates
+
+**Tools Used:**
+
+- **GitHub Actions**: Automates workflows for building, testing, and deploying the backend.
+
+- **Docker**: Ensures consistent application environments across development, staging, and production.
+
+- **PostgreSQL and Redis Services**: Used in the pipelines for testing database and caching operations.
