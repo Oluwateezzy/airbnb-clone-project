@@ -8,17 +8,17 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 
 ### Project Goals
 
-- User Management: Secure registration, authentication, and user profile management.
+- **User Management**: Secure registration, authentication, and user profile management.
 
-- Property Management: Full CRUD operations for property listings.
+- **Property Management**: Full CRUD operations for property listings.
 
-- Booking System: Mechanism for booking properties, including check-in/check-out management.
+- **Booking System**: Mechanism for booking properties, including check-in/check-out management.
 
-- Payment Processing: Handling transactions securely.
+- **Payment Processing**: Handling transactions securely.
 
-- Review System: Allow users to post reviews and rate properties.
+- **Review System**: Allow users to post reviews and rate properties.
 
-- Data Optimization: Efficient database performance through indexing and caching.
+- **Data Optimization**: Efficient database performance through indexing and caching.
 
 
 ---
@@ -74,13 +74,26 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
   Handles user registration, login/logout, authentication, and profile management, ensuring only authenticated users access sensitive features.
 - **Property Management**  
   Allows users (hosts) to list properties, update information, and delete listings, making it simple to manage hosting offerings.
-- **Booking System**
+- **Booking System**  
   Enables users to book available properties, with support for date management (check-in/check-out) and viewing booking history.
-- **Payment Processing**
+- **Payment Processing**  
   Integrates secure payment gateways to process bookings and store transaction details, ensuring smooth financial operations.
-- **Review System**
+- **Review System**  
   Users can leave feedback and ratings after staying at a property, fostering trust and helping others make informed decisions.
-- **Data Optimization**
+- **Data Optimization**  
   Uses caching and indexing strategies to ensure fast data retrieval, reduce server load, and provide a seamless experience.
 
 ---
+
+### API Security
+
+- **Authentication**: Ensures that only registered and verified users can access certain endpoints (e.g., JWT-based auth).
+- **Authorization**: Restricts access based on user roles (e.g., only property owners can edit their listings).
+- **Rate Limiting**: Prevents abuse by limiting the number of requests per user/IP.
+- **Data Validation**: Validates all incoming data to prevent injection attacks.
+- **Encryption**: Sensitive data like passwords are securely hashed.
+
+**Why Security is Crucial:**  
+- **Protect User Data**: Safeguard personal and payment information.
+- **Secure Payments**: Prevent unauthorized transactions and fraud.
+- **Maintain Platform Trust**: Ensures users can trust the platform with their interactions and financial transactions.
