@@ -59,7 +59,7 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 | Review | id, user_id, property_id, rating, comment | A review is made by a user on a specific property. |
 | Payment | id, user_id, booking_id, amount, status | A payment is associated with a booking made by a user. |
 
-** Relationships Summary: **
+**Relationships Summary:**
 - A User can own multiple Properties.
 - A User can make multiple Bookings.
 - A Booking is tied to one Property and one User.
