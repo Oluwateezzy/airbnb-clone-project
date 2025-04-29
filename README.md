@@ -44,3 +44,13 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 | Redis | An in-memory datastore used for caching, session management, and Celery's task queue backend. |
 | Docker | Ensures consistent development and production environments through containerization. |
 | CI/CD Pipelines | Automates code testing, building, and deployment for faster, safer releases. (e.g., GitHub Actions) |
+
+### Database Design
+
+| Entity | Important Fields | Relationships |
+| ----------- | ----------- | ----------- |
+| User | id, username, email, password, profile_image | A user can create multiple properties, make bookings, and leave reviews. |
+| Property | id, title, description, price_per_night, owner (user) | A property belongs to a user (owner) and can have multiple bookings and reviews. |
+| Booking | id, user_id, property_id, check_in, check_out | A booking belongs to a user and a property. |
+| Review | id, user_id, property_id, rating, comment | A review is made by a user on a specific property. |
+| Payment | id, user_id, booking_id, amount, status | A payment is associated with a booking made by a user. |
