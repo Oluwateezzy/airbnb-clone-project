@@ -70,7 +70,7 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 
 ### Feature Breakdown
 
-- **User Management**
+- **User Management** \n
   Handles user registration, login/logout, authentication, and profile management, ensuring only authenticated users access sensitive features.
 - **Property Management**
   Allows users (hosts) to list properties, update information, and delete listings, making it simple to manage hosting offerings.
