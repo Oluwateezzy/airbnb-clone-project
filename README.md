@@ -3,8 +3,6 @@
 ### Project Overview
 This project is the backend of an Airbnb clone, providing a scalable and robust infrastructure to manage users, properties, bookings, payments, and reviews. It ensures a smooth and secure experience for both hosts and travelers through a well-structured REST and GraphQL API.
 
----
-
 ### Project Goals
 
 - User Management: Secure registration, authentication, and user profile management.
