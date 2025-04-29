@@ -31,3 +31,16 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 | Database Administrator | Designs and manages database schemas, indexing, optimizations, and ensures data integrity and performance. |
 | DevOps Engineer | Automates deployments, manages server infrastructure, monitors performance, and ensures scalability and high availability. |
 | QA Engineer | Tests API endpoints, validates functionality, ensures security, and maintains overall backend quality through rigorous testing. |
+
+### Technology Stack
+
+| Technology | Purpose |
+| ----------- | ----------- |
+| Django | A high-level Python web framework for building RESTful APIs efficiently. |
+| Django REST Framework | Provides powerful and flexible tools for API development. |
+| PostgreSQL | A robust relational database system for securely storing structured data. |
+| GraphQL | A flexible and efficient query language to interact with backend data. |
+| Celery | Handles asynchronous tasks such as sending notifications or processing background jobs. |
+| Redis | An in-memory datastore used for caching, session management, and Celery's task queue backend. |
+| Docker | Ensures consistent development and production environments through containerization. |
+| CI/CD Pipelines | Automates code testing, building, and deployment for faster, safer releases. (e.g., GitHub Actions) |
