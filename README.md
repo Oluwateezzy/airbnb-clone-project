@@ -67,3 +67,20 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 - A Payment is linked to a Booking and User.
 
 ---
+
+### Feature Breakdown
+
+- **User Management**
+  Handles user registration, login/logout, authentication, and profile management, ensuring only authenticated users access sensitive features.
+- **Property Management**
+  Allows users (hosts) to list properties, update information, and delete listings, making it simple to manage hosting offerings.
+- **Booking System**
+  Enables users to book available properties, with support for date management (check-in/check-out) and viewing booking history.
+- **Payment Processing**
+  Integrates secure payment gateways to process bookings and store transaction details, ensuring smooth financial operations.
+- **Review System**
+  Users can leave feedback and ratings after staying at a property, fostering trust and helping others make informed decisions.
+- **Data Optimization**
+  Uses caching and indexing strategies to ensure fast data retrieval, reduce server load, and provide a seamless experience.
+
+---
