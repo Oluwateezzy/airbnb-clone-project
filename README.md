@@ -32,6 +32,8 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 | DevOps Engineer | Automates deployments, manages server infrastructure, monitors performance, and ensures scalability and high availability. |
 | QA Engineer | Tests API endpoints, validates functionality, ensures security, and maintains overall backend quality through rigorous testing. |
 
+---
+
 ### Technology Stack
 
 | Technology | Purpose |
@@ -45,6 +47,8 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 | Docker | Ensures consistent development and production environments through containerization. |
 | CI/CD Pipelines | Automates code testing, building, and deployment for faster, safer releases. (e.g., GitHub Actions) |
 
+---
+
 ### Database Design
 
 | Entity | Important Fields | Relationships |
@@ -54,3 +58,12 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 | Booking | id, user_id, property_id, check_in, check_out | A booking belongs to a user and a property. |
 | Review | id, user_id, property_id, rating, comment | A review is made by a user on a specific property. |
 | Payment | id, user_id, booking_id, amount, status | A payment is associated with a booking made by a user. |
+
+** Relationships Summary: **
+- A User can own multiple Properties.
+- A User can make multiple Bookings.
+- A Booking is tied to one Property and one User.
+- A Review is left by a User on a Property.
+- A Payment is linked to a Booking and User.
+
+---
