@@ -7,14 +7,14 @@ This project is the backend of an Airbnb clone, providing a scalable and robust 
 
 ### Project Goals
 
-User Management: Secure registration, authentication, and user profile management.
+- User Management: Secure registration, authentication, and user profile management.
 
-Property Management: Full CRUD operations for property listings.
+- Property Management: Full CRUD operations for property listings.
 
-Booking System: Mechanism for booking properties, including check-in/check-out management.
+- Booking System: Mechanism for booking properties, including check-in/check-out management.
 
-Payment Processing: Handling transactions securely.
+- Payment Processing: Handling transactions securely.
 
-Review System: Allow users to post reviews and rate properties.
+- Review System: Allow users to post reviews and rate properties.
 
-Data Optimization: Efficient database performance through indexing and caching.
+- Data Optimization: Efficient database performance through indexing and caching.
